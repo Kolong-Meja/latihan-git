@@ -7,7 +7,7 @@ def forbiddenWords():
 def showMessage():
     isForbiddenWord = False
 
-    while isForbiddenWord != True:
+    while isForbiddenWord:
         user_input = input("input your word: ").lower()
         if user_input in forbiddenWords():
             isForbiddenWord = True
