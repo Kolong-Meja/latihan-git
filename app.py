@@ -1,4 +1,6 @@
 # latihan git dan program python pertamaku
 
-message = "Hello World!"
-print(message)
+def showMessage():
+    message = "Hello World"
+    return message
+print(showMessage())
